@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  background-image: url(../img/background-img.jpg);
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 180px;
+  margin-left: 150px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background: rgba(1, 1, 1, 0.7);
+  width: 400px;
+  height: 600px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.title h1 {
+  color: #fff;
+}
+
+.login input {
+  width: 300px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #151415;
+  border: 1px solid #5f6060;
+}
+
+.login button {
+  width: 300px;
+  background-color: #e50914;
+  border: none;
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login button:hover {
+  background-color: #c22129;
+  transition: 0.4s;
+}
+
+form {
+  text-align: center;
+}
+
+#part {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#acess {
+  background: rgba(99, 99, 99, 0.5);
+  margin-bottom: 25px;
+}
+
+#password {
+  color: #fff;
+  text-decoration: none;
+}
+
+#password:hover {
+  color: #b4b4b4;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+#creat {
+  text-align: center;
+  margin-top: 25px;
+  color: #b4b4b4;
+  margin-bottom: 20px;
+}
+
+#creat a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#creat a:hover {
+  text-decoration: underline;
+}
+
+.final {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#my {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+}
+
+#my-span {
+  color: #fff;
+  text-align: center;
+  font-size: 13px;
+}
+
+#my:hover {
+  color: #e50914;
+  transition: 0.5s;
+}
